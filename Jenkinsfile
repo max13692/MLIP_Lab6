@@ -19,7 +19,7 @@ pipeline {
                 sh 'sudo /home/team14/miniconda3/bin/conda init'
 
                 # Complete the command to run pytest
-                sh 'sudo /home/team14/miniconda3/bin/conda run -n base pytest'
+                sh 'sudo /home/team14/miniconda3/bin/conda run -n mlip pytest'
                 '''
 
             }
