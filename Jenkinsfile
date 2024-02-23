@@ -16,10 +16,10 @@ pipeline {
                 echo 'Test Step: We run testing tool like pytest here'
 
                 # Fill out the path to conda here
-                sh 'sudo /home/team14/miniconda3/bin/conda init'
+                sudo /home/team14/miniconda3/bin/conda init
 
                 # Complete the command to run pytest
-                sh 'sudo /home/team14/miniconda3/bin/conda run -n mlip pytest'
+                sudo /home/team14/miniconda3/bin/conda run -n mlip pytest
                 '''
 
             }
